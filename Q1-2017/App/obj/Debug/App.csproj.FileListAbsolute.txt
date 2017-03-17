@@ -1,0 +1,8 @@
+C:\git\Q1-2017-VS2015\Q1-2017\App\bin\Debug\App.exe.config
+C:\git\Q1-2017-VS2015\Q1-2017\App\bin\Debug\App.exe
+C:\git\Q1-2017-VS2015\Q1-2017\App\bin\Debug\App.pdb
+C:\git\Q1-2017-VS2015\Q1-2017\App\bin\Debug\Library.dll
+C:\git\Q1-2017-VS2015\Q1-2017\App\bin\Debug\Library.pdb
+C:\git\Q1-2017-VS2015\Q1-2017\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\git\Q1-2017-VS2015\Q1-2017\App\obj\Debug\App.exe
+C:\git\Q1-2017-VS2015\Q1-2017\App\obj\Debug\App.pdb
