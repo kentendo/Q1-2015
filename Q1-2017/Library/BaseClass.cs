@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public class BaseClass
+    public class BaseClass : AbstractClass
     {
         public BaseClass()
         {
             Console.WriteLine("BaseClass");
+        }
+
+        override public string AbstractMethod()
+        {
+            return "BaseClass.AbstractMethod";
         }
 
         public string BaseMethod()
@@ -18,28 +23,19 @@ namespace Library
             return "BaseClass.BaseMethod";
         }
 
+        public string NewBaseMethod()
+        {
+            return "BaseClass.NewBaseMethod";
+        }
+
         public string HiddenBaseMethod()
         {
             return "BaseClass.HiddenBaseMethod";
         }
 
-        virtual public string OverrideBaseMethod()
+        virtual public string VirtualBaseMethod()
         {
-            return "BaseClass.OverrideBaseMethod";
+            return "BaseClass.VirtualBaseMethod";
         }
-
-
-        public bool GetTrue()
-        {
-            Console.WriteLine("BaseClass.GetTrue");
-            return true;
-        }
-
-        public bool GetFalse()
-        {
-            Console.WriteLine("BaseClass.GetFalse");
-            return false;
-        }
-
     }
 }

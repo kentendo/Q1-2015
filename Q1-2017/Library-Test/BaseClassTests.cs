@@ -3,6 +3,7 @@ using Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,18 +12,12 @@ namespace Library.Tests
     [TestClass()]
     public class BaseClassTests
     {
-        [TestMethod()]
-        public void GetFalseTest()
-        {
-            BaseClass bc = new BaseClass();
-            Assert.AreEqual(bc.GetFalse(), false);
-        }
 
         [TestMethod()]
-        public void GetTrueTest()
+        public void BaseMethodTest()
         {
-            BaseClass bc = new BaseClass();
-            Assert.AreEqual(bc.GetTrue(), true);
+            MethodInfo method = typeof(BaseClass).GetMethod("BaseMethod");
+            Assert.AreEqual(method.DeclaringType.FullName, "Library.BaseClass");
         }
     }
 }

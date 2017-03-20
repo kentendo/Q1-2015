@@ -12,8 +12,8 @@ namespace App
     {
         static void Main(string[] args)
         {
-            BaseClass bc = new BaseClass();
-            Console.WriteLine("True " + bc.GetTrue());
+            // BaseClass bc = new BaseClass();
+            Console.WriteLine("Hello World");
         }
     }
 }

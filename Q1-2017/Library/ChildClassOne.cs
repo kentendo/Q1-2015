@@ -13,16 +13,24 @@ namespace Library
             Console.WriteLine("ChildClassOne");
         }
 
-        public bool GetTrue()
+        public string ChildMethod()
         {
-            Console.WriteLine("ChildClassOne.GetTrue");
-            return true;
+            return "ChildClassOne.ChildMethod";
         }
 
-        public bool GetFalse()
+        public string HiddenBaseMethod()
         {
-            Console.WriteLine("ChildClassOne.GetFalse");
-            return false;
+            return "ChildClassOne.HiddenBaseMethod";
+        }
+
+        new public string NewBaseMethod()
+        {
+            return "ChildClassOne.NewBaseMethod";
+        }
+
+        override public string VirtualBaseMethod()
+        {
+            return "ChildClassOne.HiddenBaseMethod";
         }
     }
 }
