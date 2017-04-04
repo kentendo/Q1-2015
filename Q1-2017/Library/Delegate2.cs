@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    class ReferenceVSValueTypes
-    {
-    }
+    public delegate void Delegate2(string name);
 }

@@ -23,6 +23,21 @@ namespace Library
             return "BaseClass.BaseMethod";
         }
 
+        private string PrivateMethod()
+        {
+            return "BaseClass.PrivateMethod";
+        }
+
+        protected string ProtectedMethod()
+        {
+            return "BaseClass.ProtectedMethod";
+        }
+
+        internal string InternalMethod()
+        {
+            return "BaseClass.InternalMethod";
+        }
+
         public string NewBaseMethod()
         {
             return "BaseClass.NewBaseMethod";

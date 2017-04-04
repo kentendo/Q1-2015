@@ -1,7 +1,6 @@
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\bin\Debug\Library-Test.dll
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\bin\Debug\Library-Test.pdb
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\bin\Debug\Library.dll
-C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\bin\Debug\Library.pdb
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\obj\Debug\Library-Test.csprojResolveAssemblyReference.cache
 C:\git\Q1-2017-VS2015\Q1-2017\Library-Test\obj\Debug\Library-Test.dll
